@@ -11,6 +11,23 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 0) do
+ActiveRecord::Schema.define(:version => 20130428174315) do
+
+  create_table "answers", :force => true do |t|
+    t.string "stuff"
+    t.string "things"
+    t.string "am_activity"
+    t.string "pm_activity"
+    t.string "hunger_level"
+  end
+
+  create_table "pictures", :force => true do |t|
+    t.string  "feelings"
+    t.string  "food_activity"
+    t.string  "day_activity"
+    t.string  "night_activity"
+    t.boolean "chill"
+    t.boolean "date"
+  end
 
 end

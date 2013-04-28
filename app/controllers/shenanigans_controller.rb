@@ -2,16 +2,16 @@ class ShenanigansController < ApplicationController
 
 	def new
 		
-		
 	end
 
-	def create
+	def count
 		
 
 	end
 
 	def present
 
+		
 
 		
 	end
